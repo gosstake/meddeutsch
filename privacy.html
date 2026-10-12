@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzerklärung | Privacy Policy – MedDeutsch Pro</title>
+  <meta name="description" content="Datenschutzerklärung (Privacy Policy) für die MedDeutsch Pro iOS App und Plattform gemäß DSGVO / GDPR und Apple App Store Richtlinien.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+          },
+          colors: {
+            medical: {
+              50: '#F0F9FF',
+              100: '#E0F2FE',
+              400: '#38BDF8',
+              500: '#0EA5E9',
+              600: '#0284C7',
+              700: '#0369A1',
+            },
+            surgical: {
+              800: '#0F172A',
+              900: '#0B1120',
+              950: '#070A11',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-surgical-950 text-slate-200 antialiased font-sans min-h-screen flex flex-col selection:bg-medical-500 selection:text-white">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800/80 bg-surgical-900/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-medical-600 to-medical-400 flex items-center justify-center shadow-lg shadow-medical-500/20 text-white font-bold">
+          <i data-lucide="activity" class="w-5 h-5"></i>
+        </div>
+        <span class="font-display font-bold text-xl tracking-tight text-white group-hover:text-medical-400 transition-colors">
+          MedDeutsch <span class="text-medical-400 text-sm font-semibold uppercase px-1.5 py-0.5 rounded bg-medical-500/10 border border-medical-500/20">Pro</span>
+        </span>
+      </a>
+      
+      <div class="flex items-center gap-4 text-sm font-medium">
+        <a href="support.html" class="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5">
+          <i data-lucide="help-circle" class="w-4 h-4 text-medical-400"></i> Support
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    
+    <!-- Title Section -->
+    <div class="mb-10 text-center sm:text-left">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-medical-500/10 border border-medical-500/30 text-medical-400 text-xs font-semibold uppercase tracking-wider mb-3">
+        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> DSGVO / GDPR & Apple Compliant
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight">
+        Datenschutzerklärung / Privacy Policy
+      </h1>
+      <p class="mt-2 text-slate-400 text-sm">
+        Stand: Oktober 2026 | Last updated: October 2026 • Gültig für die iOS App <em>MedDeutsch Pro</em>
+      </p>
+    </div>
+
+    <!-- Quick Summary Box -->
+    <div class="bg-surgical-900 border border-slate-800 rounded-2xl p-6 mb-12 shadow-xl shadow-black/40">
+      <h2 class="text-lg font-bold text-white flex items-center gap-2 mb-3">
+        <i data-lucide="info" class="w-5 h-5 text-medical-400"></i> Überblick auf einen Blick (Summary)
+      </h2>
+      <ul class="space-y-2 text-sm text-slate-300">
+        <li class="flex items-start gap-2">
+          <i data-lucide="check" class="w-4 h-4 text-emerald-400 mt-0.5 shrink-0"></i>
+          <span><strong>Kein Datenverkauf:</strong> Wir verkaufen oder vermarkten Ihre persönlichen oder medizinischen Lerndaten niemals an Werbenetzwerke oder Dritte.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <i data-lucide="check" class="w-4 h-4 text-emerald-400 mt-0.5 shrink-0"></i>
+          <span><strong>Lokale Speicherung:</strong> Ihr Lernfortschritt, Fachwort-Karten und Notizen werden vorrangig lokal auf Ihrem iPhone (via AsyncStorage) gesichert.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <i data-lucide="check" class="w-4 h-4 text-emerald-400 mt-0.5 shrink-0"></i>
+          <span><strong>Sichere Zahlungen:</strong> Zahlungen werden über Apple In-App-Purchase, Stripe oder Digistore24 verschlüsselt abgewickelt. Wir speichern keine Kreditkartendaten auf unseren Servern.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <i data-lucide="check" class="w-4 h-4 text-emerald-400 mt-0.5 shrink-0"></i>
+          <span><strong>Serverstandort EU:</strong> Unsere Datenbanken werden in europäischen Rechenzentren (Frankfurt am Main / EU-Central) betrieben.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Legal Sections -->
+    <div class="space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base">
+      
+      <!-- Section 1 -->
+      <section class="bg-surgical-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-medical-400 font-mono text-base">1.</span> Verantwortliche Stelle (Data Controller)
+        </h2>
+        <p class="mb-3">
+          Verantwortlich für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) und des Bundesdatenschutzgesetzes (BDSG) ist:
+        </p>
+        <div class="p-4 rounded-xl bg-surgical-950 border border-slate-800 text-slate-300 font-mono text-sm leading-6">
+          <strong>MedDeutsch Pro Support Team</strong><br>
+          E-Mail: <a href="mailto:support@meddeutsch.de" class="text-medical-400 hover:underline">support@meddeutsch.de</a><br>
+          Website: <a href="support.html" class="text-medical-400 hover:underline">meddeutsch.de/support</a>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="bg-surgical-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-medical-400 font-mono text-base">2.</span> Erhobene Daten und Verarbeitungszwecke
+        </h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="font-semibold text-white text-base">a) Profildaten zur Prüfungsvorbereitung</h3>
+            <p class="text-slate-400 text-sm mt-1">
+              Im Rahmen des Onboardings können Sie freiwillig Angaben zu Ihrer ärztlichen Fachrichtung (z.B. Innere Medizin), Ihrem aktuellen Sprachniveau (z.B. B2/C1), der zuständigen Landesärztekammer (z.B. BLÄK) und Ihrem Prüfungsdatum hinterlegen. Diese Daten dienen ausschließlich der Personalisierung Ihres Lehrplans und der Bereitstellung kammerrelevanter Fallstudien.
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-white text-base">b) Lernfortschritt & interaktive Übungen</h3>
+            <p class="text-slate-400 text-sm mt-1">
+              Antworten auf Arzt-Patienten-Dialoge, Anamnese-Übungen und der Status Ihrer medizinischen Fachbegriffskarten (bekannt / zu wiederholen) werden auf Ihrem Endgerät gespeichert.
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-white text-base">c) Berechtigungsabgleich (Entitlements)</h3>
+            <p class="text-slate-400 text-sm mt-1">
+              Zur Freischaltung gekaufter Module (z.B. Vollzugang zur Fachsprachenprüfung FSP oder Kenntnisprüfung KP) wird bei Bedarf Ihre registrierte E-Mail-Adresse verschlüsselt an unsere Entitlement-Schnittstelle übermittelt, um den Aktivierungsstatus in der Neon PostgreSQL-Datenbank abzugleichen.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="bg-surgical-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-medical-400 font-mono text-base">3.</span> Zahlungsabwicklung & Dienstleister
+        </h2>
+        <p class="mb-4 text-slate-300">
+          Zahlungsvorgänge werden über nach PCI-DSS zertifizierte Drittanbieter abgewickelt:
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+          <div class="p-4 rounded-xl bg-surgical-950 border border-slate-800">
+            <div class="font-bold text-white flex items-center gap-2 mb-1">
+              <i data-lucide="credit-card" class="w-4 h-4 text-medical-400"></i> Apple App Store In-App-Purchase
+            </div>
+            <p class="text-slate-400 text-xs">
+              Bei Käufen innerhalb der iOS App erfolgt die Abrechnung über Apple Distribution International Ltd. Es gelten die Datenschutzrichtlinien von Apple.
+            </p>
+          </div>
+          <div class="p-4 rounded-xl bg-surgical-950 border border-slate-800">
+            <div class="font-bold text-white flex items-center gap-2 mb-1">
+              <i data-lucide="shield" class="w-4 h-4 text-medical-400"></i> Stripe & Digistore24
+            </div>
+            <p class="text-slate-400 text-xs">
+              Webbasierte Kursbuchungen werden verschlüsselt über Stripe Payments Europe Ltd. oder Digistore24 GmbH verarbeitet. Wir verarbeiten lediglich Statusmeldungen (Webhooks) zur automatischen Kursfreischaltung.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="bg-surgical-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-medical-400 font-mono text-base">4.</span> Ihre Rechte nach der DSGVO (Your Rights)
+        </h2>
+        <p class="mb-3">
+          Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:
+        </p>
+        <ul class="list-disc list-inside space-y-1 text-slate-300 text-sm ml-2">
+          <li><strong>Recht auf Auskunft (Art. 15 DSGVO)</strong> über Ihre bei uns gespeicherten Daten.</li>
+          <li><strong>Recht auf Berichtigung (Art. 16 DSGVO)</strong> unrichtiger oder unvollständiger Angaben.</li>
+          <li><strong>Recht auf Löschung (Art. 17 DSGVO)</strong> Ihrer Kontodaten ("Recht auf Vergessenwerden").</li>
+          <li><strong>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</strong>.</li>
+          <li><strong>Recht auf Widerspruch (Art. 21 DSGVO)</strong> gegen künftige Verarbeitungen.</li>
+        </ul>
+        <div class="mt-4 p-4 rounded-xl bg-medical-500/10 border border-medical-500/20 text-xs text-medical-300 flex items-start gap-2">
+          <i data-lucide="mail" class="w-4 h-4 mt-0.5 shrink-0 text-medical-400"></i>
+          <span>Um Ihre Rechte geltend zu machen oder eine vollständige Löschung Ihrer Daten zu beantragen, schreiben Sie einfach an: <strong class="text-white">support@meddeutsch.de</strong>.</span>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 bg-surgical-950 mt-16 py-8">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <p>© 2026 MedDeutsch Pro. Alle Rechte vorbehalten.</p>
+      <div class="flex items-center gap-6">
+        <a href="privacy.html" class="text-slate-400 hover:text-white transition-colors">Datenschutz (Privacy)</a>
+        <a href="support.html" class="text-slate-400 hover:text-white transition-colors">Support & Kontakt</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
